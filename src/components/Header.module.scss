@@ -1,0 +1,78 @@
+body {
+  header {
+    .Header_container {
+      max-width: 1440px;
+      margin: 0 auto;
+
+      .Header_content {
+        width: 100%;
+        height: 80px;
+        padding: 0px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .Logo {
+          display: flex;
+
+          p {
+            margin-left: 4px;
+            font-family: 'Inter', sans-serif;
+            font-size: 23px;
+            font-weight: 600;
+            line-height: 34.5px;
+            text-align: left;
+            color: #252630;
+            transition: all 0.5s ease;
+
+            &:hover {
+              opacity: 0.5;
+            }
+          }
+        }
+        .buttons_box {
+          .signIn_btns {
+            width: 100px;
+            height: 56px;
+            border-radius: 8px;
+            background-color: #0a157a;
+            cursor: pointer;
+
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #fbfbfb;
+            transition: all 0.5s ease;
+
+            &:hover {
+              background-color: transparent;
+              color: #0a157a;
+            }
+          }
+          .SignUp_btn {
+            width: 108px;
+            height: 56px;
+            margin-left: 16px;
+            border-radius: 8px;
+            background-color: transparent;
+            border: 1px solid #0a157a;
+            cursor: pointer;
+
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #0a157a;
+            transition: all 0.5s ease;
+
+            &:hover {
+              background-color: #0a157a;
+              color: #fbfbfb;
+            }
+          }
+        }
+      }
+    }
+  }
+}
